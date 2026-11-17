@@ -1,3 +1,17 @@
+## ⚠️ Play at 30 FPS / Juega a 30 FPS
+
+### 🇪🇸 Español
+IMPORTANTE: limita el juego a 30 FPS. El juego original corre a 30 FPS; si corre más rápido (por ejemplo a 60 FPS), el juego va demasiado rápido y el audio suena mal, con ruido. Para limitarlo: Panel de control de NVIDIA → Controlar la configuración 3D → Configuración de programa → agrega sm64.us.exe → Fotogramas máximos por segundo → 30 → Aplicar. También puedes usar RTSS para limitar los FPS a 30.
+
+### 🇬🇧 English
+IMPORTANT: limit the game to 30 FPS. The original game runs at 30 FPS; if it runs faster (for example at 60 FPS), the game runs too fast and the audio sounds bad, with noise/crackling. To limit it: NVIDIA Control Panel → Manage 3D Settings → Program Settings → add sm64.us.exe → Max Frame Rate → 30 → Apply. You can also use RTSS to limit the FPS to 30.
+
+### 🇧🇷 Português
+IMPORTANTE: limite o jogo a 30 FPS. O jogo original roda a 30 FPS; se rodar mais rápido (por exemplo, a 60 FPS), o jogo fica rápido demais e o áudio fica ruim, com ruído. Para limitar: Painel de Controle da NVIDIA → Gerenciar configurações 3D → Configurações do programa → adicione sm64.us.exe → Taxa máxima de quadros → 30 → Aplicar. Você também pode usar o RTSS para limitar o FPS a 30.
+
+### 🇫🇷 Français
+IMPORTANT : limitez le jeu à 30 IPS. Le jeu original tourne à 30 IPS ; s'il tourne plus vite (par exemple à 60 IPS), le jeu va trop vite et le son est mauvais, avec du grésillement. Pour limiter : Panneau de configuration NVIDIA → Gérer les paramètres 3D → Paramètres de programme → ajoutez sm64.us.exe → Fréquence d'images max → 30 → Appliquer. Vous pouvez aussi utiliser RTSS pour limiter les IPS à 30.
+
 # Super Mario 64 Port
 
 - This repo contains a full decompilation of Super Mario 64 (J), (U), (E), and (SH).
@@ -48,7 +62,7 @@ The code can be debugged using `gdb`. On Linux install the `gdb` package and exe
 It is possible to build N64 ROMs as well with this repository. See https://github.com/n64decomp/sm64 for instructions.
 
 ## Project Structure
-	
+
 	sm64
 	├── actors: object behaviors, geo layout, and display lists
 	├── asm: handwritten assembly code, rom header
