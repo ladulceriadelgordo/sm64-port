@@ -12,6 +12,32 @@ IMPORTANTE: limite o jogo a 30 FPS. O jogo original roda a 30 FPS; se rodar mais
 ### 🇫🇷 Français
 IMPORTANT : limitez le jeu à 30 IPS. Le jeu original tourne à 30 IPS ; s'il tourne plus vite (par exemple à 60 IPS), le jeu va trop vite et le son est mauvais, avec du grésillement. Pour limiter : Panneau de configuration NVIDIA → Gérer les paramètres 3D → Paramètres de programme → ajoutez sm64.us.exe → Fréquence d'images max → 30 → Appliquer. Vous pouvez aussi utiliser RTSS pour limiter les IPS à 30.
 
+## 🎮 Sin NVIDIA / Without an NVIDIA GPU
+
+### 🇪🇸 Español
+Si no tienes tarjeta NVIDIA, usa RTSS (RivaTuner Statistics Server, gratis, funciona con AMD, Intel y NVIDIA): abre RTSS, agrega sm64.us.exe y pon el límite en 30 FPS. Con AMD también puedes usar Radeon Chill (mínimo y máximo en 30).
+
+### 🇬🇧 English
+If you don't have an NVIDIA card, use RTSS (RivaTuner Statistics Server, free, works with AMD, Intel and NVIDIA): open RTSS, add sm64.us.exe and set the limit to 30 FPS. With AMD you can also use Radeon Chill (min and max at 30).
+
+### 🇧🇷 Português
+Se você não tem placa NVIDIA, use o RTSS (RivaTuner Statistics Server, gratuito, funciona com AMD, Intel e NVIDIA): abra o RTSS, adicione sm64.us.exe e defina o limite em 30 FPS. Com AMD, você também pode usar o Radeon Chill (mínimo e máximo em 30).
+
+### 🇫🇷 Français
+Si vous n'avez pas de carte NVIDIA, utilisez RTSS (RivaTuner Statistics Server, gratuit, compatible AMD, Intel et NVIDIA) : ouvrez RTSS, ajoutez sm64.us.exe et fixez la limite à 30 IPS. Avec AMD, vous pouvez aussi utiliser Radeon Chill (min et max à 30).
+
+## 💻 Requisitos / Requirements
+
+| | Mínimo / Minimum | Recomendado / Recommended |
+|---|---|---|
+| OS | Windows 10/11 64-bit o Linux 64-bit | Windows 10/11 64-bit |
+| CPU | Dual-core | Quad-core |
+| RAM | 4 GB | 8 GB |
+| GPU | DirectX 11 u OpenGL 3.3 | GTX 1050 / RX 560 o mejor |
+| Disco | 200 MB libres | 200 MB libres |
+| ROM | Super Mario 64 (USA) baserom.us.z64 | Super Mario 64 (USA) baserom.us.z64 |
+| Control | Teclado | Mando Xbox (XInput) |
+
 # Super Mario 64 Port
 
 - This repo contains a full decompilation of Super Mario 64 (J), (U), (E), and (SH).
