@@ -3,8 +3,8 @@
 ### 🇪🇸 Español
 1. Clona este repo: `git clone https://github.com/ladulceriadelgordo/sm64-port.git`
 2. Copia tu ROM de Super Mario 64 (USA) en la carpeta como `baserom.us.z64`.
-   3. Abre la terminal MINGW64 de MSYS2 en esa carpeta y ejecuta: `bash build.sh`
-   4. El juego queda en `build/us_pc/sm64.us.exe`. ¡No olvides limitarlo a 30 FPS! (ver abajo)
+3. Abre la terminal MINGW64 de MSYS2 en esa carpeta y ejecuta: `bash build.sh`
+4. El juego queda en `build/us_pc/sm64.us.exe`. ¡No olvides limitarlo a 30 FPS! (ver abajo)
 
 ### 🇬🇧 English
 1. Clone this repo: `git clone https://github.com/ladulceriadelgordo/sm64-port.git`
