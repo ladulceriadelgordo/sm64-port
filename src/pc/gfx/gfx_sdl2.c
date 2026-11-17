@@ -284,7 +284,7 @@ static void sync_framerate_with_timer(void) {
 }
 
 static void gfx_sdl_swap_buffers_begin(void) {
-    if (!vsync_enabled) {
+    if (1) {
         sync_framerate_with_timer();
     }
 
